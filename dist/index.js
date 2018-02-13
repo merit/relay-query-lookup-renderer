@@ -175,7 +175,7 @@ var ReactRelayQueryRenderer = function (_React$Component) {
                         return;
                     }
                     snapshot = environment.lookup(operation.fragment);
-                    _this3._rootSubscription = environment.subscribe(snapshot, _this3._onChange);
+
                     readyState = {
                         error: null,
                         props: snapshot.data,
